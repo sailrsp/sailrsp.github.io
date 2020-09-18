@@ -8,6 +8,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
+  
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
@@ -42,53 +50,38 @@
   </style>
 </head>
 <body>
-
-<nav class="navbar navbar-light bg-dark">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#"><img src="images/sail3.png" height="28" alt="SAIL"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-		<li><a href="#">Post Covid</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-       
-    </div>
-  </div>
-</nav>
+ 
+ 
   
-<div class="container-fluid text-center">    
-  <div class="row content">
+	<div class="container-fluid" style="background-color:#e6f2ff;" text-center>    
+   
     
-    <div class="col-sm-10 text-left"> 
-      <h1>Welcome to COVID-19 Info Portal</h1>
-      <p> COVID-19 is a new illness that can affect your lungs and airways. It's caused by a virus called coronavirus. Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.
-	  Standard recommendations to prevent infection spread include regular hand washing, use of masks ,covering mouth and nose when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close contact with anyone showing symptoms of respiratory illness such as coughing and sneezing.
-	   </p>
-      <hr>
-      <h3>Donate your blood</h3>
-	  <h3>Your Plasma can save lives<h3> 
-      <img src="images/plasma.png" class="rounded" alt="Donate Plasma">
-    </div>
+		<div class="col-sm-12"> 
+			<h1><img src="images/sail.png" height="50" alt="SAIL">   Welcome to COVID-19 Info Portal</h1>
+			<p> COVID-19 is a new illness that can affect your lungs and airways. It's caused by a virus called coronavirus. Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.
+			Standard recommendations to prevent infection spread include regular hand washing, use of masks ,covering mouth and nose when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close contact with anyone showing symptoms of respiratory illness such as coughing and sneezing.
+			</p>
+		</div>   
+     
+	</div>  
+    
 	<div class="col-sm-2 sidenav">
       <p><a href="#symptoms">Symptoms</a></p>
       <p><a href="#prevention">Prevention</a></p>
       <p><a href="#">Treatment</a></p>
 	  <p><a href="pdf/PARAMARSH.pdf">Teleconsultation</a></p>
 	  <p><a href="faq/faq_covid_19_rsp.pdf">FAQ</a></p>
+	  <p><a href="#">About</a></p>
+	  <p><a href="#">Post Covid</a></p>
+	  <p><a href="#">Contact</a></p>
 	</div>
-	
+	<div class="col-sm-10" style="background-color:#e6f2ff;">
+	<h3>Donate your blood</h3>
+	  <h3>Your Plasma can save lives</h3> 
+      <img src="images/plasma.png" class="rounded" alt="Donate Plasma">
      
-  </div>
-</div>
+    </div>
+ 
 
 <section class="section section-l bg-light section-symptom" id="symptoms">
                 <div class="container">
